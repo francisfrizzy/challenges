@@ -1,0 +1,102 @@
+/*
+*
+*
+*CSS written by Francis Eseko
+*CSS code for the purpose of Zaio bootcamp
+*
+*
+*/
+body{
+    background-image: url(../images/Tinder-logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 27px;
+}
+
+h5{
+    font-weight: 700;
+    font-size: 150%;
+}
+
+#policy{
+    font-size: 70%;
+}
+
+#policy a{
+    color: dimgray;
+    text-decoration: underline;
+}
+
+#link-underline{
+    text-decoration: underline;
+    color: black;
+    font-size: 80%;
+    padding-top: 5px;
+}
+
+#facebook{
+    background: #3b5999; /* Old browsers */
+    background: -moz-linear-gradient(left, #3b5999 0%, #207cca 44%, #207cca 52%, #7db9e8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #3b5999 0%,#207cca 44%,#207cca 52%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #3b5999 0%,#207cca 44%,#207cca 52%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b5999', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+    color: white;
+}
+
+#phone{
+    border: 2px solid #e7e7e7;
+    font-weight: 200;
+    color: #e7e7e7
+}
+
+#phone-num-row, #facebook-row{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#apple{
+    height: 45px;
+    border: 2px solid #e7e7e7;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-image: url(../images/apple-logo.png);
+    background-size: 25px 25px;
+    
+}
+
+#apple:hover{
+    background-color: #eff3f9;
+}
+
+#google{
+    height: 45px;
+    border: 2px solid #e7e7e7;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-image: url(../images/GooglePlay-Icon.png);
+    background-size: 20px 20px;
+}
+
+#google:hover{
+    background-color: #eff3f9;
+}
+
+.rounded-pill{
+    font-weight: 600;
+    height: 120%;
+    padding-top: 10px;
+}
+
+.far{
+    color: darkgray;
+}
+
+.card{
+    width: 35%;
+}
+
+/*CSS file for CSS challenges*/
