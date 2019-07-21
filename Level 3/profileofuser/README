@@ -1,0 +1,6 @@
+Please import the .sql before attempting to run index.php via phpmyadmin
+
+Make sure you place files where the path to localserver is. If you using XAMPP
+please ensure you place files in "htdocs" folder before running.
+
+Written by Francis Eseko
