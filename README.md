@@ -6,6 +6,5 @@ As of 8th July;
 -CSS challenge complete
 -JavaScript Challenges complete
 -Level 2 challenges complete
--PHP videos started
-
-Currently working on PHP backend.
+-PHP videos completed
+-Challenges completed
