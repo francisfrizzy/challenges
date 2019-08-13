@@ -1,0 +1,190 @@
+<!--
+-Author: Francis Eseko
+-Copyright &copy; Interchallenge HTML.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+-Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+-Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+-->
+<!doctype html>
+<html lang="en">
+    
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <!--link to CSS file required to implement webpage-->
+        <link rel="stylesheet" type="text/css" href="css/interchallenge.css">
+        <!--Title of website/webpage-->
+        <title>HICKIES Originals</title>
+    </head>
+    
+    <body>
+        
+        <div class="container-fluid align-items-center justify-content-center mx-auto">
+            <div class="row col-md-6 col-lg-6 justify-content-center mx-auto border border-dark rounded" id="main-row">
+                <div class="container-fluid">
+                    
+                    <div class="row"><!--The heading on page-->
+                        <h2 class="font-weight-bolder">HICKIES Originals</h2>
+                    </div>
+                    
+                    <div class="row" id="review-row"><!--Stars and reviews. Both in one row-->
+                        <div class="col-md-4 col-lg-4"><!--stars via font awesome-->
+                            <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                        </div>
+                        <div class="col-md-4 col-lg-4"><!--Reviews-->
+                            <p class="lightgreytext">1,293 reviews</p>
+                        </div>
+                    </div>
+                    
+                    <div class="row" id="price-row"><!--Prices and discounts-->
+                        <div class="col-md-3 col-lg-3"><!--discounted price-->
+                            <p class="font-weight-bolder" id="discounted-price">$14.99</p>
+                        </div>
+                        <div class="col-md-3 col-lg-3"><!--original price-->
+                            <p class="lightgreytext">$17.99</p>
+                        </div>
+                        <div class="col-md-3 col-lg-3"><!--discount percent-->
+                            <p class="lightgreytext">25% OFF</p>
+                        </div>
+                    </div>
+                    
+                    <div class="row"><!--online exclusive text row-->
+                        <div class="col-md-4 col-lg-4">
+                            <p>ONLINE EXCLUSIVE</p>
+                        </div>
+                    </div>
+                    
+                    <div class="row"><!--Color choice row. Linked with JavaScript-->
+                        <div class="col-md-1 col-lg-1">
+                            <!--<p class="font-weight-bold" id="color-caps">COLOR:</p>-->
+                            <h5 class="font-weight-bold" id="color-caps">COLOR:</h5>
+                        </div>
+                        <div class="col-md-3 col-lg-3">
+                            <p id="item-color-text">*Select color</p>
+                        </div>
+                    </div>
+                    
+                    <div class="row" id="first-color-row"><!--The color circles first row-->
+                        <div class="col-1"><span><i class="fas fa-circle fa-2x rounded-pill" id="firebrick1"></i></span></div>
+                        <div class="col-1"><span><i class="fas fa-circle fa-2x rounded-pill" id="purple1"></i></span></div>
+                        <div class="col-1"><span><i class="fas fa-circle fa-2x rounded-pill" id="black1"></i></span></div>
+                        <div class="col-1"><span><i class="fas fa-circle fa-2x rounded-pill" id="white1"></i></span></div>
+                        <div class="col-1"><span><i class="fas fa-circle fa-2x rounded-pill" id="sandybrown1"></i></span></div>
+                        <div class="col-1"><span><i class="fas fa-circle fa-2x rounded-pill" id="yellow1"></i></span></div>
+                        <div class="col-1"><span><i class="fas fa-circle fa-2x rounded-pill" id="royalblue1"></i></span></div>
+                        <div class="col-1"><span><i class="fas fa-circle fa-2x rounded-pill" id="darkslategrey1"></i></span></div>
+                        <div class="col-1"><span><i class="fas fa-circle fa-2x rounded-pill" id="navajowhite1"></i></span></div>
+                        <div class="col-1"><span><i class="fas fa-circle fa-2x rounded-pill" id="lightskyblue1"></i></span></div>
+                        <div class="col-1"><span><i class="fas fa-circle fa-2x rounded-pill" id="lawngreen1"></i></span></div>
+                    </div>
+                    
+                    <div class="row" id="second-color-row"><!--second row of colors-->
+                        <div class="col-1"><span><i class="fas fa-circle fa-2x rounded-pill" id="magenta1"></i></span></div>
+                        <div class="col-1"><span><i class="fas fa-circle fa-2x rounded-pill" id="wheat1"></i></span></div>
+                        <div class="col-1"><span><i class="fas fa-circle fa-2x rounded-pill" id="sapgreen1"></i></span></div>
+                        <div class="col-1"><span><i class="fas fa-circle fa-2x rounded-pill" id="gray1"></i></span></div>
+                        <div class="col-1"><span><i class="fas fa-circle fa-2x rounded-pill" id="burlywood1"></i></span></div>
+                        <div class="col-1"><span><i class="fas fa-circle fa-2x rounded-pill" id="aquamarine1"></i></span></div>
+                        <div class="col-1"><span><i class="fas fa-circle fa-2x rounded-pill" id="sgigray"></i></span></div>
+                    </div>
+                    
+                    <div class="row"><!--Size guide text-->
+                        <p class="font-weight-bold small-font">Size guide</p>
+                    </div>
+                    
+                    <div class="row"><!--"Your Custom Fit text"-->
+                        <p class="font-weight-bold small-font">Your Custom Fit</p>
+                    </div>
+                    
+                    <div class="row" id="form-row"><!--Row for number of items and block button-->
+                        <div class="col-2">
+                            <button type="button" class="btn btn-light btn-block rounded-pill text-center font-weight-bold" id="item-number" readonly>0</button>
+                            <input type="number" hidden><!--selected value stored here-->
+                        </div>
+                        <div class="col-10">
+                            <button type="button" name="checkout-cart" class="btn btn-primary btn-block rounded-pill text-center font-weight-bold" data-toggle="modal" data-target="#modal-item-number" id="cart-button">Add to Cart</button><!--data toggle and data target necessary for modal-->
+                        </div>    
+                    </div>
+                    
+                    <div class="row first-dash"><!--row for strike-through-->
+                    </div>
+                    <div class="row"><!--"DETAILS" text-->
+                        <p class="font-weight-bold" id="detail-text">DETAILS</p>
+                    </div>
+                    <div class="row second-dash"><!--row for second strike-through-->
+                    </div>
+                    
+                    <div class="row"><!--Link for  Help-->
+                        <a href="#" class="font-weight-bold small-font" id="help-text">Need Help?</a>
+                    </div>
+                    <div class="row">
+                        <a href="#" class="font-weight-bold small-font" id="shipping-text">Shipping &amp; Returns</a>
+                    </div>
+                    
+                </div>
+            </div>
+            <!--Modal div placed below here-->
+            <!--Refer to Bootstrap 4.3 documentation online, for how modal was implemented-->
+            
+            
+        </div>
+        
+        <!--Modal implementation-->
+        <div class="modal fade" tabindex="-1" role="dialog" id="modal-item-number" aria-labelledby="modalImplementation" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Please Add Item Quantity Required</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row align-items-center">
+                                    <div class="col-md-4 col-lg-4 align-items-center justify-content-center mx-auto"><!--Name of selected color-->
+                                        <p id="modal-color-name">*Select colour</p>
+                                    </div>
+                                    <div class="col-md-2 col-lg-2"><!--Selecting Quantities-->
+                                        <span id="number-minus"><i class="fas fa-minus-circle fa-2x rounded-pill mx-auto"></i></span>
+                                    </div>
+                                    <div class="col-md-2 col-lg-2">
+                                        <button type="button" class="btn btn-default rounded-pill text-center font-weight-bold" id="modal-number" readonly>0</button>
+                                    </div>
+                                    <div class="col-md-2 col-lg-2">
+                                        <span id="number-plus"><i class="fas fa-plus-circle fa-2x rounded-pill mx-auto"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-success" id="modal-agree-button" data-dismiss="modal">Agree</button>
+                            <button type="button" class="btn btn-outline-danger" id="modal-cancel-button" data-dismiss="modal">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+        <!-- JavaScript for implementation -->
+        <script src="js/interchallenge.js"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <!-- Scripts are kept at the end of the body.-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+    
+</html>
